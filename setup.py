@@ -23,16 +23,16 @@ print(requirements())
 
 setup(
     name="nested-lookup",
-    version="0.2.23",
+    version="0.2.25",
     description="Python functions for working with deeply nested documents (lists and dicts) ",
     keywords="nested document dictionary dict list lookup schema json xml yaml",
     long_description=open("README.rst").read(),
     author="Russell Ballestrini",
-    author_email="russell@ballestrini.net",
-    url="https://github.com/russellballestrini/nested-lookup",
+    author_email="russell.ballestrini@gmail.com",
+    url="https://git.unturf.com/python/nested-lookup",
     platforms=["All"],
     license="Public Domain",
-    packages=find_packages(),
+    packages=find_packages(exclude="tests"),
     include_package_data=True,
     install_requires=requirements(),
     classifiers=[
@@ -44,6 +44,7 @@ setup(
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
     ],
 )
 

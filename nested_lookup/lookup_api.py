@@ -1,7 +1,7 @@
 import copy
 import warnings
 from six import iteritems
-from nested_lookup import nested_lookup
+from .nested_lookup import nested_lookup
 
 
 def nested_delete(document, key, in_place=False):

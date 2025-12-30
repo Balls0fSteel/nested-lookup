@@ -1,3 +1,22 @@
+Metadata-Version: 2.1
+Name: nested-lookup
+Version: 0.2.25
+Summary: Python functions for working with deeply nested documents (lists and dicts) 
+Home-page: https://git.unturf.com/python/nested-lookup
+Author: Russell Ballestrini
+Author-email: russell.ballestrini@gmail.com
+License: Public Domain
+Keywords: nested document dictionary dict list lookup schema json xml yaml
+Platform: All
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+
 nested_lookup
 #############
 
@@ -317,3 +336,5 @@ misc
   * http://douglasmiranda.com (https://gist.github.com/douglasmiranda/5127251)
   * https://github.com/Salfiii
   * https://github.com/matheuslins
+
+
